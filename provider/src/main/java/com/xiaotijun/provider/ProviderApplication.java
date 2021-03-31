@@ -22,6 +22,12 @@ public class ProviderApplication {
         public String echo(@PathVariable String string) {
             return "Hello Nacos Discovery " + string;
         }
+
+        @RequestMapping(value = "/remoteFeign", method = RequestMethod.GET)
+        public String remoteFeign() {
+            return "Hello Nacos Discovery remoteFeign";
+        }
+
     }
 
 }

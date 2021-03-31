@@ -9,6 +9,7 @@
     <modules>
         <module>provider</module>
         <module>consumer</module>
+        <module>consumer-feign</module>
     </modules>
 
     <properties>
